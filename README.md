@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+Here's the `README.md` file with your GitHub username (`ppsingh21`) included:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# Personal Bookshelf
 
-## Available Scripts
+This project is a personal bookshelf application that allows users to search for books and add them to their personal bookshelf. The project is built with React and uses the Open Library API for book data.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Setup](#setup)
+- [Running the Application](#running-the-application)
+- [Built With](#built-with)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To set up the project locally, follow these steps:
 
-### `npm test`
+1. **Clone the repository:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/ppsingh21/personal-bookshelf.git
+   cd personal-bookshelf
+   ```
 
-### `npm run build`
+2. **Install dependencies:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   Make sure you have [Node.js](https://nodejs.org/) installed. Then run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Create a `.env` file (Optional):**
 
-### `npm run eject`
+   If your application requires any environment variables, create a `.env` file in the root directory of the project and add your environment-specific variables.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Running the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the application on your local machine, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Start the development server:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   This will start the development server and open the application in your default web browser. The application will be running at `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Build for production:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   If you want to build the application for production, run:
 
-### Code Splitting
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   This will create a `build` directory with the production build of your application.
 
-### Analyzing the Bundle Size
+## Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and Node.js
+- [Open Library API](https://openlibrary.org/developers/api) - Free and open API for book data
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+By following these instructions, you should be able to set up and run the Personal Bookshelf application on your local machine without any issues. If you encounter any problems, please refer to the project's [issues](https://github.com/ppsingh21/personal-bookshelf/issues) section on GitHub.
+```
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This `README.md` file includes all necessary instructions for setting up and running the Personal Bookshelf application locally with your GitHub username.
